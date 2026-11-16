@@ -1,0 +1,67 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.user
+*.filters
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and state
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Assets (use Git LFS)
+data/assets/*
+!data/assets/.gitkeep
+
+# Distribution
+dist/
+releases/
+*.dmg
+*.iso
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+# Downloadable Nairobi GIS datasets (keep locally; do not commit)
+/NairobiDB/*.shp
+/NairobiDB/*.shx
+/NairobiDB/*.dbf
+/NairobiDB/*.prj
+/NairobiDB/*.cpg
+/NairobiDB/*.qix
+/NairobiDB/*.sbn
+/NairobiDB/*.sbx
+/NairobiDB/*.shp.xml
